@@ -5,7 +5,7 @@ const HomePage = require("../../pop/HomePage");
 
 const expect = require("chai").expect;
 
-describe.only("HomePage Class", () => {
+describe("HomePage Class", () => {
   beforeEach(() => {
     global.element = ElementFinder.element;
     global.browser = new Browser();
